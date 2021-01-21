@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+COLMAR ACADEMY Project
+by Rishitha Mannemala , Jan 2021
+pmrn12@gmail.com
+
+Appreciate any feedback
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <meta name="author" content="Rishitha Mannemala" />
+    <meta name="description" content="Weclome to Colmar Academy" />
+  
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<!-- Font Awesome CDN -->
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+
+<!-- Bootstrap CDN -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+<!--Custom CSS-->
+
+  <link rel="stylesheet" href="/style.css" />
+
+  <title>Colmar Academy</title>
+</head>
+
+<body>
+
+<!--Nav Bar-->
+
+<!-- Desktop View Nav Bar-->
+
+    <div id="desktop-nav" class="container d-none d-lg-block mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+<!-- Logo -->
+
+            <a class="navbar-brand" href="#">
+                <img src="/images/ic-logo.svg" class="d-inline-block align-top" width="60" height="60" alt="Welcome to Colmar Academy" />
+                <span class="font-weight-bold h1 bg-logo p-1">COLMAR</span>
+                <span class="font-weight-lighter h1">ACADEMY</span>
+            </a>
+
+<!-- Main Navigation -->
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">On Campus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">For Companies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn" href="#">Sign In</a>
+                </li>
+            </ul>
+        </nav>
+  </div>
+
+<!-- Mobile View Navbar -->
+
+  <div id="mobile-nav" class="container d-block d-lg-none">
+    <ul class="custom-mobile-nav d-flex justify-content-between p-0 pt-3">
+      
+<!-- Logo -->
+
+      <li>
+        <a href="#">
+          <img src="/images/ic-logo.svg" width="45" height="45" />
+        </a>
+      </li>
+
+<!-- On Campus -->
+
+      <li>
+        <a href="#">
+          <img src="/images/ic-on-campus.svg" alt="On Campus" width="45" height="45" />
+        </a>
+      </li>
+
+<!-- Online -->
+
+      <li>
+        <a href="#">
+          <img src="/images/ic-online.svg" alt="Online learning" width="45" height="45" />
+        </a>
+      </li>
+
+<!-- Login -->
+
+      <li>
+        <a href="#">
+          <img src="/images/ic-login.svg" alt="Login" width="45" height="45" />
+        </a>
+      </li>
+    </ul>
+  </div>
+
+<!-- JUMBOTRON -->
+
+  <div class="container bg-light-shades p-4">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/images/banner.jpg" alt="Students studying outside on a beautiful spring day." width="100%" />
+      </div>
+      <div class="col-lg-4 d-flex flex-column justify-content-center p-4">
+        <h1 class="display-5 font-weight-bolder">
+          Learn something new everyday
+        </h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <a class="btn btn-dark" href="#" role="button">Start here</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLES -->
+
+  <div class="container p-4">
+
+    <!-- Main Article -->
+
+    <!--It doesnt hurt to keep practising -->
+
+    <div class="row">
+      <div class="col-lg-6 d-none d-lg-block border-right">
+        <img src="/images/information-main.jpg" alt="Information" width="100%" />
+        <h2 class="pt-4">It doesn't hurt to keep practicing</h2>
+        <p class="pt-2">
+          "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+          commodo lectus, nec consequat neque. Sednon accumsan urna. Phasellus
+          sed consequat ex. Etiam eget magna laoreet, efficitur dolor
+          consequat, trstique ligula."
+        </p>
+        <small class="pt-2">Emanuel, Sr Strategist at Hiring.com</small>
+      </div>
+
+      <!-- Other Articles -->
+
+      <div class="col-lg-6">
+
+        <!-- Orientation Date -->
+
+        <div class="row other-article">
+          <div class="col-lg-4 p-4">
+            
+            <!-- desktop image -->
+
+            <img src="/images/information-orientation.jpg" class="d-none d-lg-block" alt="Orientation date" width="100%" />
+
+            <!-- mobile image -->
+            
+            <img src="/images/information-orientation-mobile.jpg" class="d-block d-lg-none" alt="Orientation date" width="100%" height="100%" />
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center pl-4 pb-4">
+            <h3>Orientation date</h3>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <a href="#" class="text-dark font-weight-bold">Read More</a>
+          </div>
+        </div>
+
+                <!-- Our Campus -->
+
+                <div class="row other-article">
+                  <div class="col-lg-4 p-4">
+
+                    <!-- desktop image -->
+
+                    <img src="/images/information-campus.jpg" class="d-none d-lg-block" alt="Our Campus" width="100%" />
+
+                    <!-- mobile image -->
+
+                    <img src="/images/information-campus-mobile.jpg" class="d-block d-lg-none" alt="Our Campus" width="100%" height="100%" />
+                  </div>
+                  <div class="col-lg-8 d-flex flex-column justify-content-center pl-4 pb-4">
+                    <h3>Our Campus</h3>
+                    <p>Find which campus is close by you</p>
+                    <a href="#" class="text-dark font-weight-bold">Read More</a>
+                  </div>
+                </div>
+
+                 <!-- Our Guest Lecture -->
+
+        <div class="row other-article featured">
+          <div class="col-lg-4 p-4">
+
+            <!-- desktop image -->
+
+            <img src="/images/information-guest-lecture.jpg" class="d-none d-lg-block" alt="Our guest lecture" width="100%" height="100%" />
+
+            <!-- mobile image -->
+
+            <img src="/images/information-guest-lecture-mobile.jpg" class="d-block d-lg-none" alt="Our guest lecture" width="100%" />
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center pl-4 pb-4">
+            <h3>Our guest lecture</h3>
+            <p>
+              Join a keynote with Oliver Sack about music in medical treatment
+            </p>
+            <a href="#" class="text-dark font-weight-bold">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- COURSES -->
+
+  <!-- Desktop Courses -->
+
+  <div class="container bg-light-shades pb-4 d-none d-lg-block">
+    <h2 class="d-flex justify-content-center pt-5 pb-3">Start learning</h2>
+
+    <!-- First Row -->
+
+    <div class="row d-flex justify-content-center">
+
+      <!-- Software Engineering -->
+
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-software.jpg" alt="Software Engineering" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Software Engineering</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            Web Development, Mobile Development, iOT, APIs
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+
+      <!-- Computer Art -->
+
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-computer-art.jpg" alt="Computer Art" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Computer art</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+            Computer Animation
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+
+      <!-- Design -->
+
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-design.jpg" alt="Design" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Design</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            User Experience Design, User Research, Visual Design
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+
+    <div class="row d-flex justify-content-center">
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-data.jpg" alt="Data" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Data</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            Data Science, Big Data, SQL, Data Visualization
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-business.jpg" alt="Business" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Business</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            Product Development, Business Development, Startup
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 25%;">
+        <img class="card-img-top" src="/images/course-marketing.jpg" alt="Marketing" />
+        <div class="card-body d-flex flex-column justify-content-between">
+          <h5 class="card-title">Marketing</h5>
+          <small>COURSE</small>
+          <p class="card-text">
+            Analytics, Content Marketing, Mobile Marketing
+          </p>
+          <a href="#" class="btn btn-primary">Go to course</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Courses -->
+
+  <div class="container d-block d-lg-none">
+    <h1 class="text-center pt-5 pb-3">Start learning</h1>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Software engineering</h3>
+    </div>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Computer art</h3>
+    </div>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Design</h3>
+    </div>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Data</h3>
+    </div>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Business</h3>
+    </div>
+    <div class="bg-light-shades p-4 m-2">
+      <h3>Marketing</h3>
+    </div>
+  </div>
+
+  <!-- THESIS EXHIBIT -->
+
+  <div class="container p-4">
+
+    <!-- Video -->
+    <!-- Reimagine Urban -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="text-center pt-5 pb-3">Thesis Exhibits</h1>
+        <video src="/videos/thesis.mp4" type="video/mp4" alt="Reimagine Urban" width="100%" controls></video>
+        <div class="d-none d-lg-block">
+          <h2 class="p-2 ">Reimagine Urban</h2>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            odit excepturi illo blanditiis eos unde earum quaerat harum eum
+            accusamus quas explicabo, porro laboriosam doloribus reiciendis
+            maxime voluptates hic aliquam!
+          </p>
+        </div>
+      </div>
+
+  <!-- Other Videos -->
+
+  <div class="col-lg-6 border-left d-none d-lg-block">
+
+    <!-- FISMA: Design and Prototype -->
+
+    <div class="row other-article featured ">
+      <div class="col-lg-4 p-4">
+        <img src="/images/thesis-fisma.jpg" alt="Orientation date" width="100%" />
+      </div>
+      <div class="col-lg-8 d-flex flex-column justify-content-center">
+        <h3>Fisma: Design and prototype</h3>
+        <p>Designer showcase of new prototype product</p>
+      </div>
+    </div>
+
+    <!-- Now and Then -->
+
+        <div class="row other-article">
+      <div class="col-lg-4 p-4">
+        <img src="/images/thesis-now-and-then.jpg" alt="Our Campus" width="100%" />
+      </div>
+      <div class="col-lg-8 d-flex flex-column justify-content-center">
+        <h3>Now and then</h3>
+        <p>Research study about New York</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer-->
+
+<div class="container border-top p-4">
+  <div class="row">
+    <div class="col-lg-5 pt-3">
+      <p>&copy 2019 Colmar Academy. All rights reserved.</p>
+    </div>
+    <div class="col-lg-2 d-flex justify-content-around align-items-center">
+      <a href="#">
+        <i class="fa fa-facebook fa-lg text text-dark d-none d-lg-block"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter fa-lg text text-dark d-none d-lg-block"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-pinterest fa-lg text text-dark d-none d-lg-block"></i>
+      </a>
+    </div>
+    <div class="col-lg-5 d-flex justify-content-end align-items-center">
+      <div class="pl-3">
+        <a href="#" class="text-dark d-none d-lg-block">Terms</a>
+      </div>
+      <div class="pl-3">
+        <a href="#" class="text-dark d-none d-lg-block">Privacy</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

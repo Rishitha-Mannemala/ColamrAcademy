@@ -1,0 +1,69 @@
+
+/* COLOR PALETTE  */
+:root {
+    --light-shades: #dab5b5;
+    --light-accent: rgb(216, 229, 236);
+    --main-brand-color: rgb(109, 189, 230);
+    --main-brand-accent: rgb(18, 126, 228);
+    --dark-accent: rgb(241, 192, 119);
+    --dark-shades: rgb(5, 27, 47);
+  
+    --dark-grey: rgb(24, 24, 24);
+    --light-grey: rgb(218, 218, 218);
+  }
+  
+  body {
+    color: var(--dark-grey);
+  }
+  
+  .bg-light-shades {
+    background: var(--light-accent);
+  }
+  
+  .bg-light-grey {
+    background: var(--light-grey);
+  }
+  
+  .bg-logo {
+    background: var(--main-brand-color);
+  }
+  
+  .featured {
+    background: var(--dark-accent);
+  }
+  
+  
+  /* Hover Effects */
+  
+  .featured:hover,
+  .other-article:hover {
+    background-color: var(--main-brand-accent);
+  }
+  
+  
+  
+  
+  /* OTHER STYLES */
+  
+  
+  /* btn OVERRIDES */
+  
+  .btn {
+    background: var(--main-brand-color);
+    color: var(--light-accent);
+    font-weight: bold;
+    border: 1px solid var(--light-accent);
+    box-shadow: 2px 2px 2px rgb(19, 19, 19, 0.2);
+  }
+  
+  .btn:hover {
+    background: var(--main-brand-accent);
+    color: var(--light-accent);
+  }
+  
+  
+  /* Custom Styles */
+  
+  .custom-mobile-nav {
+    list-style-type: none;
+  }
