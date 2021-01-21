@@ -1,11 +1,11 @@
 
 /* COLOR PALETTE  */
 :root {
-    --light-shades: #dab5b5;
-    --light-accent: rgb(216, 229, 236);
-    --main-brand-color: rgb(109, 189, 230);
+    --light-shades: #ca3232;
+    --light-accent: rgb(189, 227, 247);
+    --main-brand-color: rgb(241, 239, 78);
     --main-brand-accent: rgb(18, 126, 228);
-    --dark-accent: rgb(241, 192, 119);
+    --dark-accent: rgb(204, 128, 13);
     --dark-shades: rgb(5, 27, 47);
   
     --dark-grey: rgb(24, 24, 24);
